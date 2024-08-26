@@ -1,7 +1,5 @@
 <?php
  include_once 'includes/dbh.php';
- 
-
 ?>
 
 <table cellspacing="0"  cellpadding="5" id="myTable" >
@@ -69,18 +67,18 @@ class CVdb extends Dbh {
     <label> Search CV Database </label>
     <input type="text" name="search" value="<?php if(isset($_GET['search'])){ echo $_GET['search']; } ?>">
     <input type="submit" value="Search" /> 
-   
-    
   </form>
   </section>
 
 
   <div class = "database">
     <h2> AstonCV Database </h2>
+  
     <?php 
     $dbobj = new CVdb();
     echo $dbobj->getCV();
     ?>
+
     </div>
   </body>  
   </html>

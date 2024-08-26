@@ -4,25 +4,29 @@ body {
     margin : 0 auto;
     color : #bd10b4d3;
   }
+
   header {
     padding : 10px;
     text-align : center;
     color : #bd10b4d3;
     width : 100%;
     }
+
   header h1 {
     font-size : 50px;
     }
+
     header #sign-in {
         text-align: center;
         padding-top: 10px;
         font-family: "Lucida Console", "Courier New", monospace;
-
     }
+  
   .topnav {
   overflow : hidden;
   background-color : #bd10b4d3;
   font-family: "Lucida Console", "Courier New", monospace;
+  width : 100%;
   }
   
   .topnav a {
@@ -88,8 +92,6 @@ body {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      
-     
       color : #bd10b4d3;
       font-family: "Lucida Console", "Courier New", monospace;
     }
