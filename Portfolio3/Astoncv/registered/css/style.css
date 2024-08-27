@@ -1,0 +1,119 @@
+
+body {
+  font-family: "Lucida Console", "Courier New", monospace;
+  border: 5px solid #944baad3;
+  margin: 0 auto;
+  color: #944baad3;
+}
+
+header {
+  padding: 10px;
+  text-align: center;
+  color: #944baad3;
+}
+header h1 {
+  font-size: 50px;
+}
+header #sign-in {
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #944baad3;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #eee;
+  color: #944baad3;
+}
+
+.topnav a.active {
+  background-color: #eee;
+  color: #944baad3;
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+#update {
+  border: 3px solid #944baad3;
+  text-align: center;
+  padding: 10px;
+  color: #944baad3;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: large;
+  padding-top: 200px;
+  padding: 10px;
+  color: #eee;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+th {
+  border: #944baad3 2px solid;
+  color: #944baad3;
+}
+
+td {
+  text-align: left;
+  border: #eee 2px solid;
+  background-color: #944baad3;
+}
+
+@media only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Force table to not be like tables anymore */
+  th,
+  td,
+  tr {
+    display: block;
+  }
+}
+
+.database {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #944baad3;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#logout {
+  height: 500px;
+  text-align: center;
+  padding-top: 200px;
+  padding: 10px;
+  color: #944baad3;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.links p {
+  padding: 10px;
+}
+
+.viewcv {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
